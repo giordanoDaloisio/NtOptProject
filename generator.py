@@ -52,8 +52,8 @@ def create_nodes(stations):
         load = elem['load']
         for i in range(1, abs(load) + 1):
             label = "(%s, %s)" % (station, i)
-            pos_x = random.randint(1, 100) + random.randint(1, 50) - random.randint(1, 25)
-            pos_y = random.randint(1, 100) + random.randint(1, 50) - random.randint(1, 25)
+            pos_x = random.randint(1, 20) + random.randint(1, 20)
+            pos_y = random.randint(1, 20) + random.randint(1, 20)
             G.add_node((station, i), station=station, load=load, label=label, x=pos_x, y=pos_y)
             nodes.append((station, i))
 
@@ -88,3 +88,20 @@ G = nx.DiGraph()
 
 dl_nodes = create_nodes(dl_stations)
 pk_nodes = create_nodes(pk_stations)
+
+for pk_node in pk_nodes:
+    for dl_node in dl_nodes:
+        u = (G.node[pk_node]['x'], G.node[pk_node]['y'])
+        v = (G.node[dl_node]['x'], G.node[dl_node]['y'])
+        d = euclidean_distance(u, v)
+        cost = d * 50
+        G.add_edge(pk_node, dl_node, cost=cost, distance=d)
+        G.add_edge(dl_node, pk_node, cost=cost, distance=d)
+
+draw_initial_graph()
+
+if args.name:
+    nx.write_graphml(G, args.name + '.gml')
+else:
+    nx.write_graphml(G, "graph.gml")
+
