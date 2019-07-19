@@ -21,11 +21,19 @@ def parse_range(string):
 def draw_initial_graph():
     global DrawG
     scale = 50
-    DrawG = pygv.AGraph(directed=True, strict='true', splines='true')
+    DrawG = pygv.AGraph(strict='true', splines='true')
 
     for i in G.nodes():
         pos = str(G.node[i]['x'] * scale) + ',' + str((G.node[i]['y']) * scale)
-        DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'])
+
+        if G.node[i]['load'] < 0:
+            DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'], color='red',
+                           style='filled', fillcolor='salmon')
+        elif G.node[i]['load'] > 0:
+            DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'], color='green',
+                           style='filled', fillcolor='palegreen1')
+        else:
+            DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'])
 
     DrawG.layout(prog='neato', args='-n')
     if args.name:
@@ -50,20 +58,19 @@ def create_nodes(stations):
     for elem in stations:
         station = elem['station']
         load = elem['load']
+        pos_x = random.randint(1, 40) + random.randint(1, 20)
+        pos_y = random.randint(1, 40) + random.randint(1, 20)
         for i in range(1, abs(load) + 1):
             label = "(%s, %s)" % (station, i)
-            pos_x = random.randint(1, 20) + random.randint(1, 20)
-            pos_y = random.randint(1, 20) + random.randint(1, 20)
             G.add_node((station, i), station=station, load=load, label=label, x=pos_x, y=pos_y)
             nodes.append((station, i))
-
     return nodes
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-n", "--name", help="Name of the graph", type=str, required=False)
-parser.add_argument("-dl", "--del_loads", help="Range of delivery vehicles for each node", type=parse_range)
-parser.add_argument("-pl", "--pick_loads", help="Range of pickup vehicles for each node", type=parse_range)
+parser.add_argument("-dl", "--del_loads", help="Range of delivery vehicles for each delivery node", type=parse_range)
+parser.add_argument("-pl", "--pick_loads", help="Range of pickup vehicles for each pickup node", type=parse_range)
 parser.add_argument("-ds", "--delivery_stations", help="Number of delivery stations", type=int)
 parser.add_argument("-ps", "--pickup_stations", help="Number of pickup stations", type=int)
 args = parser.parse_args()
@@ -84,7 +91,9 @@ dl_stations = [
 
 # create the graph
 
-G = nx.DiGraph()
+G = nx.Graph()
+
+# create the station visits nodes and connect them
 
 dl_nodes = create_nodes(dl_stations)
 pk_nodes = create_nodes(pk_stations)
@@ -94,9 +103,32 @@ for pk_node in pk_nodes:
         u = (G.node[pk_node]['x'], G.node[pk_node]['y'])
         v = (G.node[dl_node]['x'], G.node[dl_node]['y'])
         d = euclidean_distance(u, v)
-        cost = d * 50
-        G.add_edge(pk_node, dl_node, cost=cost, distance=d)
-        G.add_edge(dl_node, pk_node, cost=cost, distance=d)
+        time = d * 100
+        G.add_edge(pk_node, dl_node, time=time, distance=d)
+
+# create the depot nodes and connect them
+
+pos_x = random.randint(1, 30) + random.randint(1, 20)
+pos_y = random.randint(1, 30) + random.randint(1, 20)
+G.add_node(0, label=0, x=pos_x, y=pos_y, load=0)
+
+pos_x = random.randint(1, 30) + random.randint(1, 20)
+pos_y = random.randint(1, 30) + random.randint(1, 20)
+G.add_node(1, label=1, x=pos_x, y=pos_y, load=0)
+
+for node in pk_nodes:
+    u = (G.node[0]['x'], G.node[0]['y'])
+    v = (G.node[node]['x'], G.node[node]['y'])
+    d = euclidean_distance(u, v)
+    time = d * 100
+    G.add_edge(0, node, time=time, distance=d)
+
+for node in dl_nodes:
+    u = (G.node[node]['x'], G.node[node]['y'])
+    v = (G.node[1]['x'], G.node[1]['y'])
+    d = euclidean_distance(u, v)
+    time = d * 100
+    G.add_edge(node, 1, time=time, distance=d)
 
 draw_initial_graph()
 
