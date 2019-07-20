@@ -20,7 +20,7 @@ def parse_range(string):
 
 def draw_initial_graph():
     global DrawG
-    scale = 50
+    scale = 25
     DrawG = pygv.AGraph(strict='true', splines='true')
 
     for i in G.nodes():
@@ -28,18 +28,18 @@ def draw_initial_graph():
 
         if G.node[i]['load'] < 0:
             DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'], color='red',
-                           style='filled', fillcolor='salmon')
+                           style='filled', fillcolor='salmon', fontsize='8', width='0.3')
         elif G.node[i]['load'] > 0:
             DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'], color='green',
-                           style='filled', fillcolor='palegreen1')
+                           style='filled', fillcolor='palegreen1', fontsize='8', width='0.3')
         else:
-            DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'])
+            DrawG.add_node(i, shape='circle', pos=pos, label=G.node[i]['label'], fontsize='8', width='0.3')
 
     DrawG.layout(prog='neato', args='-n')
     if args.name:
-        DrawG.draw(path=args.name + '.png', format='png')
+        DrawG.draw(path=args.name + '.svg', format='svg')
     else:
-        DrawG.draw('graph.png')
+        DrawG.draw('graph.svg')
 
 
 def create_stations(n, lb, ub):
@@ -61,7 +61,7 @@ def create_nodes(stations):
         pos_x = random.randint(1, 40) + random.randint(1, 20)
         pos_y = random.randint(1, 40) + random.randint(1, 20)
         for i in range(1, abs(load) + 1):
-            label = "(%s, %s)" % (station, i)
+            label = "%s,%s" % (station, i)
             G.add_node((station, i), station=station, load=load, label=label, x=pos_x, y=pos_y)
             nodes.append((station, i))
     return nodes
@@ -104,7 +104,7 @@ for pk_node in pk_nodes:
         v = (G.node[dl_node]['x'], G.node[dl_node]['y'])
         d = euclidean_distance(u, v)
         time = d * 100
-        G.add_edge(pk_node, dl_node, time=time, distance=d)
+        G.add_edge(pk_node, dl_node, time=d)
 
 # create the depot nodes and connect them
 
@@ -121,14 +121,13 @@ for node in pk_nodes:
     v = (G.node[node]['x'], G.node[node]['y'])
     d = euclidean_distance(u, v)
     time = d * 100
-    G.add_edge(0, node, time=time, distance=d)
+    G.add_edge(0, node, time=d)
 
 for node in dl_nodes:
     u = (G.node[node]['x'], G.node[node]['y'])
     v = (G.node[1]['x'], G.node[1]['y'])
     d = euclidean_distance(u, v)
-    time = d * 100
-    G.add_edge(node, 1, time=time, distance=d)
+    G.add_edge(node, 1, time=d)
 
 draw_initial_graph()
 
@@ -136,4 +135,3 @@ if args.name:
     nx.write_graphml(G, args.name + '.gml')
 else:
     nx.write_graphml(G, "graph.gml")
-

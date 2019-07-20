@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key attr.name="distance" attr.type="long" for="edge" id="d7" />
   <key attr.name="time" attr.type="long" for="edge" id="d6" />
   <key attr.name="label" attr.type="long" for="node" id="d5" />
   <key attr.name="y" attr.type="long" for="node" id="d4" />
@@ -11,772 +10,555 @@
   <graph edgedefault="undirected">
     <node id="(7, 1)">
       <data key="d0">7</data>
-      <data key="d1">-1</data>
-      <data key="d2">(7, 1)</data>
-      <data key="d3">40</data>
-      <data key="d4">34</data>
+      <data key="d1">-3</data>
+      <data key="d2">7,1</data>
+      <data key="d3">27</data>
+      <data key="d4">39</data>
+    </node>
+    <node id="(7, 2)">
+      <data key="d0">7</data>
+      <data key="d1">-3</data>
+      <data key="d2">7,2</data>
+      <data key="d3">27</data>
+      <data key="d4">39</data>
+    </node>
+    <node id="(7, 3)">
+      <data key="d0">7</data>
+      <data key="d1">-3</data>
+      <data key="d2">7,3</data>
+      <data key="d3">27</data>
+      <data key="d4">39</data>
     </node>
     <node id="(8, 1)">
       <data key="d0">8</data>
       <data key="d1">-1</data>
-      <data key="d2">(8, 1)</data>
-      <data key="d3">33</data>
-      <data key="d4">18</data>
+      <data key="d2">8,1</data>
+      <data key="d3">53</data>
+      <data key="d4">9</data>
     </node>
     <node id="(9, 1)">
       <data key="d0">9</data>
       <data key="d1">-2</data>
-      <data key="d2">(9, 1)</data>
-      <data key="d3">37</data>
-      <data key="d4">37</data>
+      <data key="d2">9,1</data>
+      <data key="d3">18</data>
+      <data key="d4">28</data>
     </node>
     <node id="(9, 2)">
       <data key="d0">9</data>
       <data key="d1">-2</data>
-      <data key="d2">(9, 2)</data>
-      <data key="d3">37</data>
-      <data key="d4">37</data>
+      <data key="d2">9,2</data>
+      <data key="d3">18</data>
+      <data key="d4">28</data>
     </node>
     <node id="(10, 1)">
       <data key="d0">10</data>
-      <data key="d1">-3</data>
-      <data key="d2">(10, 1)</data>
-      <data key="d3">48</data>
-      <data key="d4">54</data>
+      <data key="d1">-2</data>
+      <data key="d2">10,1</data>
+      <data key="d3">38</data>
+      <data key="d4">37</data>
     </node>
     <node id="(10, 2)">
       <data key="d0">10</data>
-      <data key="d1">-3</data>
-      <data key="d2">(10, 2)</data>
-      <data key="d3">48</data>
-      <data key="d4">54</data>
-    </node>
-    <node id="(10, 3)">
-      <data key="d0">10</data>
-      <data key="d1">-3</data>
-      <data key="d2">(10, 3)</data>
-      <data key="d3">48</data>
-      <data key="d4">54</data>
+      <data key="d1">-2</data>
+      <data key="d2">10,2</data>
+      <data key="d3">38</data>
+      <data key="d4">37</data>
     </node>
     <node id="(11, 1)">
       <data key="d0">11</data>
-      <data key="d1">-2</data>
-      <data key="d2">(11, 1)</data>
-      <data key="d3">38</data>
-      <data key="d4">28</data>
+      <data key="d1">-3</data>
+      <data key="d2">11,1</data>
+      <data key="d3">31</data>
+      <data key="d4">34</data>
     </node>
     <node id="(11, 2)">
       <data key="d0">11</data>
-      <data key="d1">-2</data>
-      <data key="d2">(11, 2)</data>
-      <data key="d3">38</data>
-      <data key="d4">28</data>
+      <data key="d1">-3</data>
+      <data key="d2">11,2</data>
+      <data key="d3">31</data>
+      <data key="d4">34</data>
+    </node>
+    <node id="(11, 3)">
+      <data key="d0">11</data>
+      <data key="d1">-3</data>
+      <data key="d2">11,3</data>
+      <data key="d3">31</data>
+      <data key="d4">34</data>
     </node>
     <node id="(1, 1)">
       <data key="d0">1</data>
       <data key="d1">3</data>
-      <data key="d2">(1, 1)</data>
-      <data key="d3">40</data>
-      <data key="d4">43</data>
+      <data key="d2">1,1</data>
+      <data key="d3">7</data>
+      <data key="d4">20</data>
     </node>
     <node id="(1, 2)">
       <data key="d0">1</data>
       <data key="d1">3</data>
-      <data key="d2">(1, 2)</data>
-      <data key="d3">40</data>
-      <data key="d4">43</data>
+      <data key="d2">1,2</data>
+      <data key="d3">7</data>
+      <data key="d4">20</data>
     </node>
     <node id="(1, 3)">
       <data key="d0">1</data>
       <data key="d1">3</data>
-      <data key="d2">(1, 3)</data>
-      <data key="d3">40</data>
-      <data key="d4">43</data>
+      <data key="d2">1,3</data>
+      <data key="d3">7</data>
+      <data key="d4">20</data>
     </node>
     <node id="(2, 1)">
       <data key="d0">2</data>
-      <data key="d1">3</data>
-      <data key="d2">(2, 1)</data>
-      <data key="d3">52</data>
-      <data key="d4">9</data>
-    </node>
-    <node id="(2, 2)">
-      <data key="d0">2</data>
-      <data key="d1">3</data>
-      <data key="d2">(2, 2)</data>
-      <data key="d3">52</data>
-      <data key="d4">9</data>
-    </node>
-    <node id="(2, 3)">
-      <data key="d0">2</data>
-      <data key="d1">3</data>
-      <data key="d2">(2, 3)</data>
-      <data key="d3">52</data>
-      <data key="d4">9</data>
+      <data key="d1">1</data>
+      <data key="d2">2,1</data>
+      <data key="d3">39</data>
+      <data key="d4">47</data>
     </node>
     <node id="(3, 1)">
       <data key="d0">3</data>
-      <data key="d1">2</data>
-      <data key="d2">(3, 1)</data>
-      <data key="d3">51</data>
-      <data key="d4">17</data>
-    </node>
-    <node id="(3, 2)">
-      <data key="d0">3</data>
-      <data key="d1">2</data>
-      <data key="d2">(3, 2)</data>
-      <data key="d3">51</data>
-      <data key="d4">17</data>
+      <data key="d1">1</data>
+      <data key="d2">3,1</data>
+      <data key="d3">47</data>
+      <data key="d4">48</data>
     </node>
     <node id="(4, 1)">
       <data key="d0">4</data>
       <data key="d1">1</data>
-      <data key="d2">(4, 1)</data>
-      <data key="d3">25</data>
-      <data key="d4">5</data>
+      <data key="d2">4,1</data>
+      <data key="d3">23</data>
+      <data key="d4">42</data>
     </node>
     <node id="(5, 1)">
       <data key="d0">5</data>
-      <data key="d1">2</data>
-      <data key="d2">(5, 1)</data>
-      <data key="d3">43</data>
-      <data key="d4">27</data>
-    </node>
-    <node id="(5, 2)">
-      <data key="d0">5</data>
-      <data key="d1">2</data>
-      <data key="d2">(5, 2)</data>
-      <data key="d3">43</data>
-      <data key="d4">27</data>
+      <data key="d1">1</data>
+      <data key="d2">5,1</data>
+      <data key="d3">41</data>
+      <data key="d4">11</data>
     </node>
     <node id="(6, 1)">
       <data key="d0">6</data>
       <data key="d1">3</data>
-      <data key="d2">(6, 1)</data>
-      <data key="d3">41</data>
-      <data key="d4">29</data>
+      <data key="d2">6,1</data>
+      <data key="d3">40</data>
+      <data key="d4">26</data>
     </node>
     <node id="(6, 2)">
       <data key="d0">6</data>
       <data key="d1">3</data>
-      <data key="d2">(6, 2)</data>
-      <data key="d3">41</data>
-      <data key="d4">29</data>
+      <data key="d2">6,2</data>
+      <data key="d3">40</data>
+      <data key="d4">26</data>
     </node>
     <node id="(6, 3)">
       <data key="d0">6</data>
       <data key="d1">3</data>
-      <data key="d2">(6, 3)</data>
-      <data key="d3">41</data>
-      <data key="d4">29</data>
+      <data key="d2">6,3</data>
+      <data key="d3">40</data>
+      <data key="d4">26</data>
     </node>
     <node id="0">
       <data key="d5">0</data>
-      <data key="d3">33</data>
-      <data key="d4">35</data>
+      <data key="d3">28</data>
+      <data key="d4">7</data>
       <data key="d1">0</data>
     </node>
     <node id="1">
       <data key="d5">1</data>
-      <data key="d3">15</data>
-      <data key="d4">25</data>
+      <data key="d3">14</data>
+      <data key="d4">35</data>
       <data key="d1">0</data>
     </node>
     <edge source="(7, 1)" target="(1, 1)">
-      <data key="d6">90000</data>
-      <data key="d7">900</data>
+      <data key="d6">2758</data>
     </edge>
     <edge source="(7, 1)" target="(1, 2)">
-      <data key="d6">90000</data>
-      <data key="d7">900</data>
+      <data key="d6">2758</data>
     </edge>
     <edge source="(7, 1)" target="(1, 3)">
-      <data key="d6">90000</data>
-      <data key="d7">900</data>
+      <data key="d6">2758</data>
     </edge>
     <edge source="(7, 1)" target="(2, 1)">
-      <data key="d6">277300</data>
-      <data key="d7">2773</data>
-    </edge>
-    <edge source="(7, 1)" target="(2, 2)">
-      <data key="d6">277300</data>
-      <data key="d7">2773</data>
-    </edge>
-    <edge source="(7, 1)" target="(2, 3)">
-      <data key="d6">277300</data>
-      <data key="d7">2773</data>
+      <data key="d6">1442</data>
     </edge>
     <edge source="(7, 1)" target="(3, 1)">
-      <data key="d6">202400</data>
-      <data key="d7">2024</data>
-    </edge>
-    <edge source="(7, 1)" target="(3, 2)">
-      <data key="d6">202400</data>
-      <data key="d7">2024</data>
+      <data key="d6">2193</data>
     </edge>
     <edge source="(7, 1)" target="(4, 1)">
-      <data key="d6">326400</data>
-      <data key="d7">3264</data>
+      <data key="d6">500</data>
     </edge>
     <edge source="(7, 1)" target="(5, 1)">
-      <data key="d6">76100</data>
-      <data key="d7">761</data>
-    </edge>
-    <edge source="(7, 1)" target="(5, 2)">
-      <data key="d6">76100</data>
-      <data key="d7">761</data>
+      <data key="d6">3130</data>
     </edge>
     <edge source="(7, 1)" target="(6, 1)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
+      <data key="d6">1838</data>
     </edge>
     <edge source="(7, 1)" target="(6, 2)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
+      <data key="d6">1838</data>
     </edge>
     <edge source="(7, 1)" target="(6, 3)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
+      <data key="d6">1838</data>
     </edge>
     <edge source="(7, 1)" target="1">
-      <data key="d6">265700</data>
-      <data key="d7">2657</data>
+      <data key="d6">1360</data>
+    </edge>
+    <edge source="(7, 2)" target="(1, 1)">
+      <data key="d6">2758</data>
+    </edge>
+    <edge source="(7, 2)" target="(1, 2)">
+      <data key="d6">2758</data>
+    </edge>
+    <edge source="(7, 2)" target="(1, 3)">
+      <data key="d6">2758</data>
+    </edge>
+    <edge source="(7, 2)" target="(2, 1)">
+      <data key="d6">1442</data>
+    </edge>
+    <edge source="(7, 2)" target="(3, 1)">
+      <data key="d6">2193</data>
+    </edge>
+    <edge source="(7, 2)" target="(4, 1)">
+      <data key="d6">500</data>
+    </edge>
+    <edge source="(7, 2)" target="(5, 1)">
+      <data key="d6">3130</data>
+    </edge>
+    <edge source="(7, 2)" target="(6, 1)">
+      <data key="d6">1838</data>
+    </edge>
+    <edge source="(7, 2)" target="(6, 2)">
+      <data key="d6">1838</data>
+    </edge>
+    <edge source="(7, 2)" target="(6, 3)">
+      <data key="d6">1838</data>
+    </edge>
+    <edge source="(7, 2)" target="1">
+      <data key="d6">1360</data>
+    </edge>
+    <edge source="(7, 3)" target="(1, 1)">
+      <data key="d6">2758</data>
+    </edge>
+    <edge source="(7, 3)" target="(1, 2)">
+      <data key="d6">2758</data>
+    </edge>
+    <edge source="(7, 3)" target="(1, 3)">
+      <data key="d6">2758</data>
+    </edge>
+    <edge source="(7, 3)" target="(2, 1)">
+      <data key="d6">1442</data>
+    </edge>
+    <edge source="(7, 3)" target="(3, 1)">
+      <data key="d6">2193</data>
+    </edge>
+    <edge source="(7, 3)" target="(4, 1)">
+      <data key="d6">500</data>
+    </edge>
+    <edge source="(7, 3)" target="(5, 1)">
+      <data key="d6">3130</data>
+    </edge>
+    <edge source="(7, 3)" target="(6, 1)">
+      <data key="d6">1838</data>
+    </edge>
+    <edge source="(7, 3)" target="(6, 2)">
+      <data key="d6">1838</data>
+    </edge>
+    <edge source="(7, 3)" target="(6, 3)">
+      <data key="d6">1838</data>
+    </edge>
+    <edge source="(7, 3)" target="1">
+      <data key="d6">1360</data>
     </edge>
     <edge source="(8, 1)" target="(1, 1)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">4729</data>
     </edge>
     <edge source="(8, 1)" target="(1, 2)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">4729</data>
     </edge>
     <edge source="(8, 1)" target="(1, 3)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">4729</data>
     </edge>
     <edge source="(8, 1)" target="(2, 1)">
-      <data key="d6">210200</data>
-      <data key="d7">2102</data>
-    </edge>
-    <edge source="(8, 1)" target="(2, 2)">
-      <data key="d6">210200</data>
-      <data key="d7">2102</data>
-    </edge>
-    <edge source="(8, 1)" target="(2, 3)">
-      <data key="d6">210200</data>
-      <data key="d7">2102</data>
+      <data key="d6">4049</data>
     </edge>
     <edge source="(8, 1)" target="(3, 1)">
-      <data key="d6">180200</data>
-      <data key="d7">1802</data>
-    </edge>
-    <edge source="(8, 1)" target="(3, 2)">
-      <data key="d6">180200</data>
-      <data key="d7">1802</data>
+      <data key="d6">3945</data>
     </edge>
     <edge source="(8, 1)" target="(4, 1)">
-      <data key="d6">152600</data>
-      <data key="d7">1526</data>
+      <data key="d6">4459</data>
     </edge>
     <edge source="(8, 1)" target="(5, 1)">
-      <data key="d6">134500</data>
-      <data key="d7">1345</data>
-    </edge>
-    <edge source="(8, 1)" target="(5, 2)">
-      <data key="d6">134500</data>
-      <data key="d7">1345</data>
+      <data key="d6">1216</data>
     </edge>
     <edge source="(8, 1)" target="(6, 1)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">2140</data>
     </edge>
     <edge source="(8, 1)" target="(6, 2)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">2140</data>
     </edge>
     <edge source="(8, 1)" target="(6, 3)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">2140</data>
     </edge>
     <edge source="(8, 1)" target="1">
-      <data key="d6">193100</data>
-      <data key="d7">1931</data>
+      <data key="d6">4687</data>
     </edge>
     <edge source="(9, 1)" target="(1, 1)">
-      <data key="d6">67000</data>
-      <data key="d7">670</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(9, 1)" target="(1, 2)">
-      <data key="d6">67000</data>
-      <data key="d7">670</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(9, 1)" target="(1, 3)">
-      <data key="d6">67000</data>
-      <data key="d7">670</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(9, 1)" target="(2, 1)">
-      <data key="d6">317600</data>
-      <data key="d7">3176</data>
-    </edge>
-    <edge source="(9, 1)" target="(2, 2)">
-      <data key="d6">317600</data>
-      <data key="d7">3176</data>
-    </edge>
-    <edge source="(9, 1)" target="(2, 3)">
-      <data key="d6">317600</data>
-      <data key="d7">3176</data>
+      <data key="d6">2831</data>
     </edge>
     <edge source="(9, 1)" target="(3, 1)">
-      <data key="d6">244100</data>
-      <data key="d7">2441</data>
-    </edge>
-    <edge source="(9, 1)" target="(3, 2)">
-      <data key="d6">244100</data>
-      <data key="d7">2441</data>
+      <data key="d6">3522</data>
     </edge>
     <edge source="(9, 1)" target="(4, 1)">
-      <data key="d6">341700</data>
-      <data key="d7">3417</data>
+      <data key="d6">1486</data>
     </edge>
     <edge source="(9, 1)" target="(5, 1)">
-      <data key="d6">116600</data>
-      <data key="d7">1166</data>
-    </edge>
-    <edge source="(9, 1)" target="(5, 2)">
-      <data key="d6">116600</data>
-      <data key="d7">1166</data>
+      <data key="d6">2860</data>
     </edge>
     <edge source="(9, 1)" target="(6, 1)">
-      <data key="d6">89400</data>
-      <data key="d7">894</data>
+      <data key="d6">2209</data>
     </edge>
     <edge source="(9, 1)" target="(6, 2)">
-      <data key="d6">89400</data>
-      <data key="d7">894</data>
+      <data key="d6">2209</data>
     </edge>
     <edge source="(9, 1)" target="(6, 3)">
-      <data key="d6">89400</data>
-      <data key="d7">894</data>
+      <data key="d6">2209</data>
     </edge>
     <edge source="(9, 1)" target="1">
-      <data key="d6">250500</data>
-      <data key="d7">2505</data>
+      <data key="d6">806</data>
     </edge>
     <edge source="(9, 2)" target="(1, 1)">
-      <data key="d6">67000</data>
-      <data key="d7">670</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(9, 2)" target="(1, 2)">
-      <data key="d6">67000</data>
-      <data key="d7">670</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(9, 2)" target="(1, 3)">
-      <data key="d6">67000</data>
-      <data key="d7">670</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(9, 2)" target="(2, 1)">
-      <data key="d6">317600</data>
-      <data key="d7">3176</data>
-    </edge>
-    <edge source="(9, 2)" target="(2, 2)">
-      <data key="d6">317600</data>
-      <data key="d7">3176</data>
-    </edge>
-    <edge source="(9, 2)" target="(2, 3)">
-      <data key="d6">317600</data>
-      <data key="d7">3176</data>
+      <data key="d6">2831</data>
     </edge>
     <edge source="(9, 2)" target="(3, 1)">
-      <data key="d6">244100</data>
-      <data key="d7">2441</data>
-    </edge>
-    <edge source="(9, 2)" target="(3, 2)">
-      <data key="d6">244100</data>
-      <data key="d7">2441</data>
+      <data key="d6">3522</data>
     </edge>
     <edge source="(9, 2)" target="(4, 1)">
-      <data key="d6">341700</data>
-      <data key="d7">3417</data>
+      <data key="d6">1486</data>
     </edge>
     <edge source="(9, 2)" target="(5, 1)">
-      <data key="d6">116600</data>
-      <data key="d7">1166</data>
-    </edge>
-    <edge source="(9, 2)" target="(5, 2)">
-      <data key="d6">116600</data>
-      <data key="d7">1166</data>
+      <data key="d6">2860</data>
     </edge>
     <edge source="(9, 2)" target="(6, 1)">
-      <data key="d6">89400</data>
-      <data key="d7">894</data>
+      <data key="d6">2209</data>
     </edge>
     <edge source="(9, 2)" target="(6, 2)">
-      <data key="d6">89400</data>
-      <data key="d7">894</data>
+      <data key="d6">2209</data>
     </edge>
     <edge source="(9, 2)" target="(6, 3)">
-      <data key="d6">89400</data>
-      <data key="d7">894</data>
+      <data key="d6">2209</data>
     </edge>
     <edge source="(9, 2)" target="1">
-      <data key="d6">250500</data>
-      <data key="d7">2505</data>
+      <data key="d6">806</data>
     </edge>
     <edge source="(10, 1)" target="(1, 1)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(10, 1)" target="(1, 2)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(10, 1)" target="(1, 3)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(10, 1)" target="(2, 1)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 1)" target="(2, 2)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 1)" target="(2, 3)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
+      <data key="d6">1004</data>
     </edge>
     <edge source="(10, 1)" target="(3, 1)">
-      <data key="d6">371200</data>
-      <data key="d7">3712</data>
-    </edge>
-    <edge source="(10, 1)" target="(3, 2)">
-      <data key="d6">371200</data>
-      <data key="d7">3712</data>
+      <data key="d6">1421</data>
     </edge>
     <edge source="(10, 1)" target="(4, 1)">
-      <data key="d6">541200</data>
-      <data key="d7">5412</data>
+      <data key="d6">1581</data>
     </edge>
     <edge source="(10, 1)" target="(5, 1)">
-      <data key="d6">274500</data>
-      <data key="d7">2745</data>
-    </edge>
-    <edge source="(10, 1)" target="(5, 2)">
-      <data key="d6">274500</data>
-      <data key="d7">2745</data>
+      <data key="d6">2617</data>
     </edge>
     <edge source="(10, 1)" target="(6, 1)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">1118</data>
     </edge>
     <edge source="(10, 1)" target="(6, 2)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">1118</data>
     </edge>
     <edge source="(10, 1)" target="(6, 3)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">1118</data>
     </edge>
     <edge source="(10, 1)" target="1">
-      <data key="d6">439300</data>
-      <data key="d7">4393</data>
+      <data key="d6">2408</data>
     </edge>
     <edge source="(10, 2)" target="(1, 1)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(10, 2)" target="(1, 2)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(10, 2)" target="(1, 3)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(10, 2)" target="(2, 1)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 2)" target="(2, 2)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 2)" target="(2, 3)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
+      <data key="d6">1004</data>
     </edge>
     <edge source="(10, 2)" target="(3, 1)">
-      <data key="d6">371200</data>
-      <data key="d7">3712</data>
-    </edge>
-    <edge source="(10, 2)" target="(3, 2)">
-      <data key="d6">371200</data>
-      <data key="d7">3712</data>
+      <data key="d6">1421</data>
     </edge>
     <edge source="(10, 2)" target="(4, 1)">
-      <data key="d6">541200</data>
-      <data key="d7">5412</data>
+      <data key="d6">1581</data>
     </edge>
     <edge source="(10, 2)" target="(5, 1)">
-      <data key="d6">274500</data>
-      <data key="d7">2745</data>
-    </edge>
-    <edge source="(10, 2)" target="(5, 2)">
-      <data key="d6">274500</data>
-      <data key="d7">2745</data>
+      <data key="d6">2617</data>
     </edge>
     <edge source="(10, 2)" target="(6, 1)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">1118</data>
     </edge>
     <edge source="(10, 2)" target="(6, 2)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">1118</data>
     </edge>
     <edge source="(10, 2)" target="(6, 3)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
+      <data key="d6">1118</data>
     </edge>
     <edge source="(10, 2)" target="1">
-      <data key="d6">439300</data>
-      <data key="d7">4393</data>
-    </edge>
-    <edge source="(10, 3)" target="(1, 1)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
-    </edge>
-    <edge source="(10, 3)" target="(1, 2)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
-    </edge>
-    <edge source="(10, 3)" target="(1, 3)">
-      <data key="d6">136000</data>
-      <data key="d7">1360</data>
-    </edge>
-    <edge source="(10, 3)" target="(2, 1)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 3)" target="(2, 2)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 3)" target="(2, 3)">
-      <data key="d6">451700</data>
-      <data key="d7">4517</data>
-    </edge>
-    <edge source="(10, 3)" target="(3, 1)">
-      <data key="d6">371200</data>
-      <data key="d7">3712</data>
-    </edge>
-    <edge source="(10, 3)" target="(3, 2)">
-      <data key="d6">371200</data>
-      <data key="d7">3712</data>
-    </edge>
-    <edge source="(10, 3)" target="(4, 1)">
-      <data key="d6">541200</data>
-      <data key="d7">5412</data>
-    </edge>
-    <edge source="(10, 3)" target="(5, 1)">
-      <data key="d6">274500</data>
-      <data key="d7">2745</data>
-    </edge>
-    <edge source="(10, 3)" target="(5, 2)">
-      <data key="d6">274500</data>
-      <data key="d7">2745</data>
-    </edge>
-    <edge source="(10, 3)" target="(6, 1)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
-    </edge>
-    <edge source="(10, 3)" target="(6, 2)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
-    </edge>
-    <edge source="(10, 3)" target="(6, 3)">
-      <data key="d6">259600</data>
-      <data key="d7">2596</data>
-    </edge>
-    <edge source="(10, 3)" target="1">
-      <data key="d6">439300</data>
-      <data key="d7">4393</data>
+      <data key="d6">2408</data>
     </edge>
     <edge source="(11, 1)" target="(1, 1)">
-      <data key="d6">151300</data>
-      <data key="d7">1513</data>
+      <data key="d6">2778</data>
     </edge>
     <edge source="(11, 1)" target="(1, 2)">
-      <data key="d6">151300</data>
-      <data key="d7">1513</data>
+      <data key="d6">2778</data>
     </edge>
     <edge source="(11, 1)" target="(1, 3)">
-      <data key="d6">151300</data>
-      <data key="d7">1513</data>
+      <data key="d6">2778</data>
     </edge>
     <edge source="(11, 1)" target="(2, 1)">
-      <data key="d6">236000</data>
-      <data key="d7">2360</data>
-    </edge>
-    <edge source="(11, 1)" target="(2, 2)">
-      <data key="d6">236000</data>
-      <data key="d7">2360</data>
-    </edge>
-    <edge source="(11, 1)" target="(2, 3)">
-      <data key="d6">236000</data>
-      <data key="d7">2360</data>
+      <data key="d6">1526</data>
     </edge>
     <edge source="(11, 1)" target="(3, 1)">
-      <data key="d6">170200</data>
-      <data key="d7">1702</data>
-    </edge>
-    <edge source="(11, 1)" target="(3, 2)">
-      <data key="d6">170200</data>
-      <data key="d7">1702</data>
+      <data key="d6">2126</data>
     </edge>
     <edge source="(11, 1)" target="(4, 1)">
-      <data key="d6">264100</data>
-      <data key="d7">2641</data>
+      <data key="d6">1131</data>
     </edge>
     <edge source="(11, 1)" target="(5, 1)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
-    </edge>
-    <edge source="(11, 1)" target="(5, 2)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
+      <data key="d6">2507</data>
     </edge>
     <edge source="(11, 1)" target="(6, 1)">
-      <data key="d6">31600</data>
-      <data key="d7">316</data>
+      <data key="d6">1204</data>
     </edge>
     <edge source="(11, 1)" target="(6, 2)">
-      <data key="d6">31600</data>
-      <data key="d7">316</data>
+      <data key="d6">1204</data>
     </edge>
     <edge source="(11, 1)" target="(6, 3)">
-      <data key="d6">31600</data>
-      <data key="d7">316</data>
+      <data key="d6">1204</data>
     </edge>
     <edge source="(11, 1)" target="1">
-      <data key="d6">231900</data>
-      <data key="d7">2319</data>
+      <data key="d6">1702</data>
     </edge>
     <edge source="(11, 2)" target="(1, 1)">
-      <data key="d6">151300</data>
-      <data key="d7">1513</data>
+      <data key="d6">2778</data>
     </edge>
     <edge source="(11, 2)" target="(1, 2)">
-      <data key="d6">151300</data>
-      <data key="d7">1513</data>
+      <data key="d6">2778</data>
     </edge>
     <edge source="(11, 2)" target="(1, 3)">
-      <data key="d6">151300</data>
-      <data key="d7">1513</data>
+      <data key="d6">2778</data>
     </edge>
     <edge source="(11, 2)" target="(2, 1)">
-      <data key="d6">236000</data>
-      <data key="d7">2360</data>
-    </edge>
-    <edge source="(11, 2)" target="(2, 2)">
-      <data key="d6">236000</data>
-      <data key="d7">2360</data>
-    </edge>
-    <edge source="(11, 2)" target="(2, 3)">
-      <data key="d6">236000</data>
-      <data key="d7">2360</data>
+      <data key="d6">1526</data>
     </edge>
     <edge source="(11, 2)" target="(3, 1)">
-      <data key="d6">170200</data>
-      <data key="d7">1702</data>
-    </edge>
-    <edge source="(11, 2)" target="(3, 2)">
-      <data key="d6">170200</data>
-      <data key="d7">1702</data>
+      <data key="d6">2126</data>
     </edge>
     <edge source="(11, 2)" target="(4, 1)">
-      <data key="d6">264100</data>
-      <data key="d7">2641</data>
+      <data key="d6">1131</data>
     </edge>
     <edge source="(11, 2)" target="(5, 1)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
-    </edge>
-    <edge source="(11, 2)" target="(5, 2)">
-      <data key="d6">50900</data>
-      <data key="d7">509</data>
+      <data key="d6">2507</data>
     </edge>
     <edge source="(11, 2)" target="(6, 1)">
-      <data key="d6">31600</data>
-      <data key="d7">316</data>
+      <data key="d6">1204</data>
     </edge>
     <edge source="(11, 2)" target="(6, 2)">
-      <data key="d6">31600</data>
-      <data key="d7">316</data>
+      <data key="d6">1204</data>
     </edge>
     <edge source="(11, 2)" target="(6, 3)">
-      <data key="d6">31600</data>
-      <data key="d7">316</data>
+      <data key="d6">1204</data>
     </edge>
     <edge source="(11, 2)" target="1">
-      <data key="d6">231900</data>
-      <data key="d7">2319</data>
+      <data key="d6">1702</data>
+    </edge>
+    <edge source="(11, 3)" target="(1, 1)">
+      <data key="d6">2778</data>
+    </edge>
+    <edge source="(11, 3)" target="(1, 2)">
+      <data key="d6">2778</data>
+    </edge>
+    <edge source="(11, 3)" target="(1, 3)">
+      <data key="d6">2778</data>
+    </edge>
+    <edge source="(11, 3)" target="(2, 1)">
+      <data key="d6">1526</data>
+    </edge>
+    <edge source="(11, 3)" target="(3, 1)">
+      <data key="d6">2126</data>
+    </edge>
+    <edge source="(11, 3)" target="(4, 1)">
+      <data key="d6">1131</data>
+    </edge>
+    <edge source="(11, 3)" target="(5, 1)">
+      <data key="d6">2507</data>
+    </edge>
+    <edge source="(11, 3)" target="(6, 1)">
+      <data key="d6">1204</data>
+    </edge>
+    <edge source="(11, 3)" target="(6, 2)">
+      <data key="d6">1204</data>
+    </edge>
+    <edge source="(11, 3)" target="(6, 3)">
+      <data key="d6">1204</data>
+    </edge>
+    <edge source="(11, 3)" target="1">
+      <data key="d6">1702</data>
     </edge>
     <edge source="(1, 1)" target="0">
-      <data key="d6">106300</data>
-      <data key="d7">1063</data>
+      <data key="d6">2469</data>
     </edge>
     <edge source="(1, 2)" target="0">
-      <data key="d6">106300</data>
-      <data key="d7">1063</data>
+      <data key="d6">2469</data>
     </edge>
     <edge source="(1, 3)" target="0">
-      <data key="d6">106300</data>
-      <data key="d7">1063</data>
+      <data key="d6">2469</data>
     </edge>
     <edge source="(2, 1)" target="0">
-      <data key="d6">322000</data>
-      <data key="d7">3220</data>
-    </edge>
-    <edge source="(2, 2)" target="0">
-      <data key="d6">322000</data>
-      <data key="d7">3220</data>
-    </edge>
-    <edge source="(2, 3)" target="0">
-      <data key="d6">322000</data>
-      <data key="d7">3220</data>
+      <data key="d6">4148</data>
     </edge>
     <edge source="(3, 1)" target="0">
-      <data key="d6">254500</data>
-      <data key="d7">2545</data>
-    </edge>
-    <edge source="(3, 2)" target="0">
-      <data key="d6">254500</data>
-      <data key="d7">2545</data>
+      <data key="d6">4518</data>
     </edge>
     <edge source="(4, 1)" target="0">
-      <data key="d6">310400</data>
-      <data key="d7">3104</data>
+      <data key="d6">3535</data>
     </edge>
     <edge source="(5, 1)" target="0">
-      <data key="d6">128000</data>
-      <data key="d7">1280</data>
-    </edge>
-    <edge source="(5, 2)" target="0">
-      <data key="d6">128000</data>
-      <data key="d7">1280</data>
+      <data key="d6">1360</data>
     </edge>
     <edge source="(6, 1)" target="0">
-      <data key="d6">100000</data>
-      <data key="d7">1000</data>
+      <data key="d6">2247</data>
     </edge>
     <edge source="(6, 2)" target="0">
-      <data key="d6">100000</data>
-      <data key="d7">1000</data>
+      <data key="d6">2247</data>
     </edge>
     <edge source="(6, 3)" target="0">
-      <data key="d6">100000</data>
-      <data key="d7">1000</data>
+      <data key="d6">2247</data>
     </edge>
   </graph>
 </graphml>
