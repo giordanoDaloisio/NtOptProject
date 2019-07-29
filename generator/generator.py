@@ -12,16 +12,16 @@ def euclidean_distance(u, v):
 def parse_range(string):
     m = string.split('-')
     if not m:
-        raise ArgumentTypeError(string + " is not a range of number. Expected forms like '0-5'.")
+        raise ArgumentTypeError(string + " is not a range of number. Expected forms like '1-5'.")
     if int(m[0]) > int(m[1]):
-        raise ArgumentTypeError(string + ": wrong range. Expected forms like '0-5'.")
+        raise ArgumentTypeError(string + ": wrong range. Expected forms like '1-5'.")
     return int(m[0]), int(m[1])
 
 
 def draw_initial_graph():
     global DrawG
     scale = 25
-    DrawG = pygv.AGraph(strict='true', splines='true')
+    DrawG = pygv.AGraph(strict='true', splines='true', directed=True)
 
     for i in G.nodes():
         pos = str(G.node[i]['x'] * scale) + ',' + str((G.node[i]['y']) * scale)
@@ -91,7 +91,7 @@ dl_stations = [
 
 # create the graph
 
-G = nx.Graph()
+G = nx.DiGraph()
 
 # create the station visits nodes and connect them
 
@@ -105,6 +105,7 @@ for pk_node in pk_nodes:
         d = euclidean_distance(u, v)
         time = d * 100
         G.add_edge(pk_node, dl_node, time=d)
+        G.add_edge(dl_node, pk_node, time=d)
 
 # create the depot nodes and connect them
 
