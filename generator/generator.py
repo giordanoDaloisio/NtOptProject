@@ -15,6 +15,8 @@ def parse_range(string):
         raise ArgumentTypeError(string + " is not a range of number. Expected forms like '1-5'.")
     if int(m[0]) > int(m[1]):
         raise ArgumentTypeError(string + ": wrong range. Expected forms like '1-5'.")
+    if int(m[0]) <= 0 or int(m[1]) <= 0:
+        raise ArgumentTypeError(string + ": wrong range. Expected forms like '1-5'.")
     return int(m[0]), int(m[1])
 
 
@@ -121,7 +123,6 @@ for node in pk_nodes:
     u = (G.node[0]['x'], G.node[0]['y'])
     v = (G.node[node]['x'], G.node[node]['y'])
     d = euclidean_distance(u, v)
-    time = d * 100
     G.add_edge(0, node, time=d)
 
 for node in dl_nodes:

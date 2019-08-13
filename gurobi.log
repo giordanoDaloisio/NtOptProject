@@ -1657,3 +1657,2420 @@ Solution count 2: 16 8
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Mon Jul 29 21:25:07 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Found heuristic solution: objective 10.0000000
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.02s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 219 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0      16.0000000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (536 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 16 10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(10, 1),1]" has a space
+Warning: constraint name "CSTR1[(10, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(23, 14),1]" has a space
+Warning: constraint name "CSTR1[(23, 14)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 30 17:39:57 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.02s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+Found heuristic solution: objective 16.0000000
+
+Root relaxation: cutoff, 209 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (209 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolve removed 604 rows and 2 columns
+Presolve time: 0.63s
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+Variable types: 150 continuous, 46072 integer (46072 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.01s
+
+Solved with primal simplex
+
+Root relaxation: objective 1.420000e+02, 10936 iterations, 2.06 seconds
+Total elapsed time = 8.90s
+Total elapsed time = 11.09s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  142.00000    0   21          -  142.00000      -     -   16s
+H    0     0                     142.0000000  142.00000  0.00%     -   16s
+
+Explored 1 nodes (35758 simplex iterations) in 16.45 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 5),1]" has a space
+Warning: constraint name "CSTR1[(19, 5)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 30 18:15:24 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(15, 3),1]" has a space
+Warning: constraint name "CSTR1[(15, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolve removed 604 rows and 2 columns
+Presolve time: 0.54s
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+Variable types: 150 continuous, 46072 integer (46072 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.00s
+
+Solved with primal simplex
+
+Root relaxation: objective 1.420000e+02, 13883 iterations, 2.01 seconds
+Total elapsed time = 7.23s
+Total elapsed time = 13.42s
+Total elapsed time = 15.31s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  142.00000    0   15          -  142.00000      -     -   17s
+H    0     0                     142.0000000  142.00000  0.00%     -   17s
+
+Explored 1 nodes (36712 simplex iterations) in 17.73 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (36712 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (36712 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+
+Continuing optimization...
+
+
+Explored 1 nodes (36712 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 30 18:26:41 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.01s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 201 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (667 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 30 18:26:52 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(12, 3),1]" has a space
+Warning: constraint name "CSTR1[(12, 3)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolve removed 604 rows and 2 columns
+Presolve time: 0.53s
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+Variable types: 150 continuous, 46072 integer (46072 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.01s
+
+Solved with primal simplex
+
+Root relaxation: objective 1.420000e+02, 15200 iterations, 2.34 seconds
+Total elapsed time = 8.08s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  142.00000    0   25          -  142.00000      -     -   11s
+H    0     0                     142.0000000  142.00000  0.00%     -   12s
+
+Explored 1 nodes (35747 simplex iterations) in 12.40 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.01s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 201 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (667 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(1, 1),1]" has a space
+Warning: constraint name "CSTR1[(1, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.01s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 201 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (667 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 30 21:19:57 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(20, 1),1]" has a space
+Warning: constraint name "CSTR1[(20, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 6e+05]
+Presolve removed 604 rows and 2 columns
+Presolve time: 0.55s
+Presolved: 46754 rows, 46222 columns, 230560 nonzeros
+Variable types: 150 continuous, 46072 integer (46072 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   11049    1.3787692e+02   0.000000e+00   4.911573e+03      5s
+   11483    1.4200000e+02   0.000000e+00   0.000000e+00      5s
+Concurrent spin time: 0.00s
+
+Solved with primal simplex
+
+Root relaxation: objective 1.420000e+02, 11483 iterations, 2.91 seconds
+Total elapsed time = 13.05s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  142.00000    0   25          -  142.00000      -     -   14s
+H    0     0                     142.0000000  142.00000  0.00%     -   15s
+
+Explored 1 nodes (31512 simplex iterations) in 15.84 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 142 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.420000000000e+02, best bound 1.420000000000e+02, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Tue Jul 30 21:35:33 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(2, 1),1]" has a space
+Warning: constraint name "CSTR1[(2, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.01s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+Found heuristic solution: objective 14.0000000
+
+Root relaxation: objective 1.600000e+01, 201 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (732 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 16 14 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Wed Jul 31 14:18:07 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 1 columns
+Presolve time: 0.03s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 247 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (549 simplex iterations) in 0.10 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(6, 2),1]" has a space
+Warning: constraint name "CSTR1[(6, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 1 columns
+Presolve time: 0.02s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 247 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (549 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Wed Jul 31 17:19:14 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 1 columns
+Presolve time: 0.02s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 222 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (585 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 1 columns
+Presolve time: 0.02s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 222 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (585 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 4 rows and 1 columns
+Presolve time: 0.01s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 222 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (585 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Wed Jul 31 17:22:42 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 3e+05]
+Found heuristic solution: objective 12.0000000
+Presolve removed 4 rows and 2 columns
+Presolve time: 0.01s
+Presolved: 914 rows, 802 columns, 5124 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 208 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                      16.0000000   72.00000   350%     -    0s
+     0     0          -    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (761 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 16 12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+04]
+Found heuristic solution: objective 8.0000000
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.02s
+Presolved: 918 rows, 802 columns, 5756 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 266 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   16.00000    0    4    8.00000   16.00000   100%     -    0s
+H    0     0                      16.0000000   16.00000  0.00%     -    0s
+
+Explored 1 nodes (1315 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 16 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 5e+03]
+Presolve removed 424 rows and 437 columns
+Presolve time: 0.01s
+Presolved: 494 rows, 366 columns, 2572 nonzeros
+Variable types: 14 continuous, 352 integer (352 binary)
+
+Root relaxation: infeasible, 66 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (66 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 8e+03]
+Found heuristic solution: objective 8.0000000
+Presolve removed 76 rows and 77 columns
+Presolve time: 0.04s
+Presolved: 842 rows, 726 columns, 5148 nonzeros
+Variable types: 18 continuous, 708 integer (708 binary)
+
+Root relaxation: objective 1.586316e+01, 583 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   15.86316    0   41    8.00000   15.86316  98.3%     -    0s
+     0     0   14.00000    0   96    8.00000   14.00000  75.0%     -    0s
+     0     0   14.00000    0   82    8.00000   14.00000  75.0%     -    0s
+     0     0   14.00000    0   89    8.00000   14.00000  75.0%     -    0s
+     0     0   14.00000    0   77    8.00000   14.00000  75.0%     -    0s
+     0     0   14.00000    0   20    8.00000   14.00000  75.0%     -    0s
+H    0     0                      10.0000000   14.00000  40.0%     -    0s
+H    0     0                      12.0000000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   26   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   20   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   20   12.00000   14.00000  16.7%     -    0s
+     0     2   14.00000    0    4   12.00000   14.00000  16.7%     -    0s
+*   75    11              13      14.0000019   14.00000  0.00%  31.0    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 1
+  Cover: 5
+  Implied bound: 9
+  MIR: 11
+  StrongCG: 1
+  GUB cover: 1
+  Zero half: 1
+
+Explored 108 nodes (6151 simplex iterations) in 0.53 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 14 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.400000186283e+01, best bound 1.400000186283e+01, gap 0.0000%
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 1e+04]
+Found heuristic solution: objective 8.0000000
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.02s
+Presolved: 918 rows, 802 columns, 5756 nonzeros
+Variable types: 18 continuous, 784 integer (784 binary)
+
+Root relaxation: objective 1.600000e+01, 266 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   16.00000    0    4    8.00000   16.00000   100%     -    0s
+H    0     0                      16.0000000   16.00000  0.00%     -    0s
+
+Explored 1 nodes (1315 simplex iterations) in 0.10 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 16 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 2),1]" has a space
+Warning: constraint name "CSTR1[(9, 2)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolve removed 206 rows and 202 columns
+Presolve time: 0.04s
+Presolved: 712 rows, 601 columns, 4168 nonzeros
+Variable types: 18 continuous, 583 integer (583 binary)
+
+Root relaxation: objective 1.448788e+01, 471 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.48788    0   50          -   14.48788      -     -    0s
+H    0     0                      10.0000000   14.48788  44.9%     -    0s
+     0     0   14.48788    0   93   10.00000   14.48788  44.9%     -    0s
+     0     0   14.00000    0   63   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   43   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   56   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   72   10.00000   14.00000  40.0%     -    0s
+H    0     0                      12.0000000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   88   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   33   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   76   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   22   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   97   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   60   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   60   12.00000   14.00000  16.7%     -    0s
+     0     2   14.00000    0   60   12.00000   14.00000  16.7%     -    0s
+
+Cutting planes:
+  Learned: 16
+  Gomory: 5
+  Cover: 100
+  Implied bound: 81
+  Clique: 1
+  MIR: 48
+  StrongCG: 6
+  GUB cover: 9
+  Inf proof: 7
+
+Explored 2161 nodes (63194 simplex iterations) in 2.66 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 12 10 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolve removed 158 rows and 156 columns
+Presolve time: 0.03s
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+Variable types: 18 continuous, 630 integer (630 binary)
+
+Root relaxation: objective 1.477722e+01, 521 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.77722    0   87          -   14.77722      -     -    0s
+H    0     0                       8.0000000   14.77722  84.7%     -    0s
+     0     0   14.77722    0   84    8.00000   14.77722  84.7%     -    0s
+H    0     0                      10.0000000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   97   10.00000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   73   10.00000   14.77722  47.8%     -    0s
+     0     0   14.00000    0   84   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   44   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   24   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   38   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   27   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0    8   10.00000   14.00000  40.0%     -    0s
+H    0     0                      12.0000000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   45   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   65   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   64   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     2   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 2.79 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolve removed 158 rows and 156 columns
+Presolve time: 0.03s
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+Variable types: 18 continuous, 630 integer (630 binary)
+
+Root relaxation: objective 1.477722e+01, 521 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.77722    0   87          -   14.77722      -     -    0s
+H    0     0                       8.0000000   14.77722  84.7%     -    0s
+     0     0   14.77722    0   84    8.00000   14.77722  84.7%     -    0s
+H    0     0                      10.0000000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   97   10.00000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   73   10.00000   14.77722  47.8%     -    0s
+     0     0   14.00000    0   84   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   44   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   24   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   38   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   27   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0    8   10.00000   14.00000  40.0%     -    0s
+H    0     0                      12.0000000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   45   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   65   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   64   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     2   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 2.63 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolve removed 158 rows and 156 columns
+Presolve time: 0.03s
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+Variable types: 18 continuous, 630 integer (630 binary)
+
+Root relaxation: objective 1.477722e+01, 521 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.77722    0   87          -   14.77722      -     -    0s
+H    0     0                       8.0000000   14.77722  84.7%     -    0s
+     0     0   14.77722    0   84    8.00000   14.77722  84.7%     -    0s
+H    0     0                      10.0000000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   97   10.00000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   73   10.00000   14.77722  47.8%     -    0s
+     0     0   14.00000    0   84   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   44   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   24   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   38   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   27   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0    8   10.00000   14.00000  40.0%     -    0s
+H    0     0                      12.0000000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   45   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   65   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   64   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     2   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 2.79 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(9, 1),1]" has a space
+Warning: constraint name "CSTR1[(9, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 804 columns and 5836 nonzeros
+Variable types: 20 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Presolve removed 158 rows and 156 columns
+Presolve time: 0.02s
+Presolved: 760 rows, 648 columns, 4542 nonzeros
+Variable types: 18 continuous, 630 integer (630 binary)
+
+Root relaxation: objective 1.477722e+01, 521 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.77722    0   87          -   14.77722      -     -    0s
+H    0     0                       8.0000000   14.77722  84.7%     -    0s
+     0     0   14.77722    0   84    8.00000   14.77722  84.7%     -    0s
+H    0     0                      10.0000000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   97   10.00000   14.77722  47.8%     -    0s
+     0     0   14.77722    0   73   10.00000   14.77722  47.8%     -    0s
+     0     0   14.00000    0   84   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   44   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   24   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   38   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   27   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0    8   10.00000   14.00000  40.0%     -    0s
+H    0     0                      12.0000000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   45   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   65   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   64   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     0   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+     0     2   14.00000    0   43   12.00000   14.00000  16.7%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 182
+  Implied bound: 99
+  MIR: 31
+  StrongCG: 7
+  GUB cover: 9
+  Inf proof: 12
+  Zero half: 1
+
+Explored 2334 nodes (51625 simplex iterations) in 2.76 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Wed Jul 31 18:22:23 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(19, 6),1]" has a space
+Warning: constraint name "CSTR1[(19, 6)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 47358 rows, 46224 columns and 366376 nonzeros
+Variable types: 152 continuous, 46072 integer (46072 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 600 rows and 2 columns
+Presolve time: 0.69s
+Presolved: 46758 rows, 46222 columns, 273424 nonzeros
+Variable types: 150 continuous, 46072 integer (46072 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.04s
+
+Solved with primal simplex
+
+Root relaxation: objective 6.337136e+01, 12027 iterations, 2.13 seconds
+Total elapsed time = 5.20s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   63.37136    0  242          -   63.37136      -     -    5s
+     0     0   63.37136    0  430          -   63.37136      -     -    8s
+     0     0   63.37136    0  415          -   63.37136      -     -    8s
+     0     0   63.37136    0  182          -   63.37136      -     -   12s
+     0     0   63.37136    0  108          -   63.37136      -     -   14s
+     0     0   63.37136    0  297          -   63.37136      -     -   14s
+     0     0   63.37136    0  106          -   63.37136      -     -   17s
+     0     0   63.37136    0  229          -   63.37136      -     -   17s
+     0     0   63.37136    0  113          -   63.37136      -     -   19s
+     0     0   63.37136    0  107          -   63.37136      -     -   20s
+     0     0   63.37136    0  125          -   63.37136      -     -   21s
+     0     0   63.37136    0  130          -   63.37136      -     -   21s
+     0     0   63.37136    0   72          -   63.37136      -     -   22s
+     0     0   63.37136    0  131          -   63.37136      -     -   23s
+     0     0   63.37136    0   88          -   63.37136      -     -   24s
+     0     0   63.37136    0   88          -   63.37136      -     -   30s
+H    0     0                       8.0000000   63.37136   692%     -   35s
+H    0     0                      32.0000000   63.37136  98.0%     -   56s
+     0     2   63.37136    0   88   32.00000   63.37136  98.0%     -   57s
+     1     4   63.13000    1  278   32.00000   63.37136  98.0%  1854   88s
+     3     6   57.20308    2  265   32.00000   63.37136  98.0%   918  103s
+     5     8   63.13000    2  272   32.00000   63.37136  98.0%   660  114s
+     7    10   63.13000    3  284   32.00000   63.37136  98.0%   534  118s
+     9    12   63.13000    3  268   32.00000   63.37136  98.0%   445  125s
+    11     8   63.13000    4  257   32.00000   63.37136  98.0%   404  131s
+    15    17   63.13000    6  331   32.00000   63.37136  98.0%   402  136s
+    18    21   63.13000    6  288   32.00000   63.37136  98.0%   355  142s
+    25    26   63.13000    7  275   32.00000   63.37136  98.0%   317  163s
+H   27    26                      36.0000000   63.37136  76.0%   295  163s
+    31    31   63.13000    9  256   36.00000   63.37136  76.0%   428  187s
+    68    68 infeasible   27        36.00000   63.37136  76.0%   278  221s
+   105    99   63.11944   48  224   36.00000   63.37136  76.0%   245  251s
+   205   154   63.08533  121  260   36.00000   63.37136  76.0%   171  280s
+H  226   154                      38.0000000   63.37136  66.8%   160  280s
+H  349   254                      42.0000000   63.37136  50.9%   120  307s
+   438   333   63.04695  211  292   42.00000   63.37136  50.9%   103  327s
+   599   466   63.02096  327  254   42.00000   63.37136  50.9%  92.7  344s
+   694   565   63.02096  403  281   42.00000   63.37136  50.9%  88.9  361s
+   908   742   63.02096  472  264   42.00000   63.37136  50.9%  80.2  375s
+   981   805   63.05890   92   88   42.00000   63.37136  50.9%  81.1  391s
+   983   806   63.33675   30  152   42.00000   63.37136  50.9%  81.0  401s
+   985   808   63.33675   27  123   42.00000   63.37136  50.9%  80.8  405s
+   988   810   62.82039  252   70   42.00000   63.37136  50.9%  80.6  412s
+   990   811   63.05890  113  124   42.00000   63.37136  50.9%  80.4  417s
+   992   812   62.65282  179   93   42.00000   63.37136  50.9%  80.2  432s
+   994   814   61.85742  354   67   42.00000   63.37136  50.9%  80.1  437s
+   996   815   62.78520  476   82   42.00000   63.37136  50.9%  79.9  441s
+   998   816   62.94418    9   78   42.00000   63.37136  50.9%  79.8  445s
+  1002   819   62.65282  175   86   42.00000   63.37136  50.9%  79.4  454s
+  1003   820   62.94418   87   86   42.00000   63.37136  50.9%  79.4  455s
+  1004   820   62.14338  115   86   42.00000   63.37136  50.9%  79.3  475s
+  1005   824   63.13000   13  168   42.00000   63.37136  50.9%   155  491s
+  1007   825   63.13000   14  135   42.00000   63.37136  50.9%   155  498s
+  1009   827   62.94417   14  146   42.00000   63.37136  50.9%   155  506s
+  1011   828   63.13000   15  136   42.00000   63.37136  50.9%   155  510s
+  1015   831   63.13000   16  130   42.00000   63.33675  50.8%   154  516s
+  1017   831   63.13000   16  137   42.00000   63.33675  50.8%   154  521s
+  1020   832   61.41869   17  191   42.00000   63.33675  50.8%   154  527s
+  1022   832   63.13000   18  198   42.00000   63.33675  50.8%   155  532s
+  1025   837   63.13000   18  164   42.00000   63.33675  50.8%   154  535s
+  1029   840   62.94417   19  284   42.00000   63.33675  50.8%   155  549s
+  1033   841   63.13000   20  215   42.00000   63.33675  50.8%   155  555s
+  1039   843   63.13000   21  214   42.00000   63.33675  50.8%   156  569s
+  1065   863   62.94417   25  187   42.00000   63.33675  50.8%   156  582s
+  1084   875   63.13000   29  199   42.00000   63.33675  50.8%   155  600s
+  1116   897   63.13000   37  201   42.00000   63.33675  50.8%   154  621s
+  1169   930   63.06902   50  245   42.00000   63.33675  50.8%   155  644s
+  1222   969   62.94417   63  211   42.00000   63.33675  50.8%   160  666s
+  1292  1012   62.92814   76  250   42.00000   63.33675  50.8%   166  688s
+  1353  1045   62.85535   91  290   42.00000   63.33675  50.8%   175  711s
+  1436  1082   62.77800  108  189   42.00000   63.33675  50.8%   180  731s
+  1498  1112   62.77800  128  206   42.00000   63.33675  50.8%   183  755s
+  1570  1162   62.75829  148  240   42.00000   63.33675  50.8%   187  776s
+  1664  1218   62.74485  172  209   42.00000   63.33675  50.8%   191  802s
+  1727  1250   59.15701  190  220   42.00000   63.33675  50.8%   199  827s
+  1765  1275   53.41784  207  237   42.00000   63.33675  50.8%   209  852s
+  1875  1331   62.68037  242  158   42.00000   63.33675  50.8%   213  886s
+  2024  1406   59.92979  292  165   42.00000   63.33675  50.8%   218  914s
+  2120  1465   62.40718  318  223   42.00000   63.33675  50.8%   225  941s
+  2288  1521   62.00000  376  198   42.00000   63.33675  50.8%   241  967s
+  2440  1577   63.18038   17  158   42.00000   63.33675  50.8%   242  992s
+  2579  1655   63.22065   53  205   42.00000   63.33675  50.8%   244 1018s
+  2698  1723   62.99672   90  229   42.00000   63.33675  50.8%   247 1044s
+  2803  1776   62.98304  119  211   42.00000   63.33675  50.8%   247 1070s
+  2937  1864   62.89776  156  227   42.00000   63.33675  50.8%   242 1101s
+  3146  1985   56.85963  188  245   42.00000   63.33675  50.8%   233 1132s
+
+Cutting planes:
+  Learned: 1
+  Gomory: 5
+  Implied bound: 21
+  MIR: 1
+  Flow cover: 39
+  Zero half: 4
+
+Explored 3666 nodes (817352 simplex iterations) in 1134.75 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: 42 38 36 ... 8
+
+Solve interrupted
+Best objective 4.200000000000e+01, best bound 6.300000000000e+01, gap 50.0000%
+
+Gurobi 8.1.1 (linux64, Python) logging started Mon Aug  5 18:01:39 2019
+
+Academic license - for non-commercial use only
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Warning: variable name "x[(8, 1),1]" has a space
+Warning: constraint name "CSTR1[(8, 1)]" has a space
+Warning: to let Gurobi read it back, use rlp format
+Optimize a model with 918 rows, 803 columns and 5836 nonzeros
+Variable types: 19 continuous, 784 integer (784 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [1e+00, 7e+03]
+Found heuristic solution: objective 8.0000000
+Presolve removed 180 rows and 177 columns
+Presolve time: 0.05s
+Presolved: 738 rows, 626 columns, 4360 nonzeros
+Variable types: 18 continuous, 608 integer (608 binary)
+
+Root relaxation: objective 1.448788e+01, 492 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   14.48788    0   53    8.00000   14.48788  81.1%     -    0s
+     0     0   14.48788    0   73    8.00000   14.48788  81.1%     -    0s
+H    0     0                      10.0000000   14.48788  44.9%     -    0s
+     0     0   14.00000    0   80   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   24   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   20   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   75   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   69   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   61   10.00000   14.00000  40.0%     -    0s
+     0     0   14.00000    0   55   10.00000   14.00000  40.0%     -    0s
+     0     2   14.00000    0   55   10.00000   14.00000  40.0%     -    0s
+H   36    20                      12.0000000   14.00000  16.7%  40.1    0s
+
+Cutting planes:
+  Learned: 17
+  Gomory: 3
+  Cover: 68
+  Implied bound: 54
+  Clique: 2
+  MIR: 32
+  StrongCG: 6
+  GUB cover: 2
+  Inf proof: 4
+
+Explored 1131 nodes (26668 simplex iterations) in 1.40 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 10 8 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%

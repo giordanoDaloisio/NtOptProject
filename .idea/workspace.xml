@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947f11ec-fba6-42d8-ba25-f99372db549a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/generator/.ipynb_checkpoints/graph2-checkpoint.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph2.gml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Project-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Project-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Project-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/graph.gml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/graph.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.gml" beforeDir="false" afterPath="$PROJECT_DIR$/graph.gml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/graph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph2.gml" beforeDir="false" afterPath="$PROJECT_DIR$/graph2.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/graph2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gurobi.log" beforeDir="false" afterPath="$PROJECT_DIR$/gurobi.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.lp" beforeDir="false" afterPath="$PROJECT_DIR$/model.lp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net21736.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/net21736.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +32,7 @@
   <component name="ProjectId" id="1Oh2ov7v8W4OwP3y9GyU9eFJBYX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../generatori/province.txt" />
@@ -144,7 +140,11 @@
       <workItem from="1564172210105" duration="306000" />
       <workItem from="1564415306915" duration="351000" />
       <workItem from="1564415694688" duration="335000" />
-      <workItem from="1564419218674" duration="912000" />
+      <workItem from="1564419218674" duration="951000" />
+      <workItem from="1564500943294" duration="217000" />
+      <workItem from="1564574639649" duration="80000" />
+      <workItem from="1564574988287" duration="311000" />
+      <workItem from="1565022956997" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="add edges">
       <created>1563472759977</created>
@@ -167,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563554428710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="started second model analysis">
+      <created>1564420531271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564420531271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -198,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add edges" />
     <MESSAGE value="created generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="created generator" />
+    <MESSAGE value="started second model analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="started second model analysis" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project$generator.coverage" NAME="generator Coverage Results" MODIFIED="1560195016736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
