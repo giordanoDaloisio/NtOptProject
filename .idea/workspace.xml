@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="947f11ec-fba6-42d8-ba25-f99372db549a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Project2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Project2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Project3-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Project3-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_sol.svg" beforeDir="false" afterPath="$PROJECT_DIR$/graph_sol.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gurobi.log" beforeDir="false" afterPath="$PROJECT_DIR$/gurobi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.lp" beforeDir="false" afterPath="$PROJECT_DIR$/model.lp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model3.lp" beforeDir="false" afterPath="$PROJECT_DIR$/model3.lp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +101,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ntopt" />
       <item itemvalue="Python.generator" />
+      <item itemvalue="Python.ntopt" />
     </list>
     <recent_temporary>
       <list>
@@ -144,6 +143,7 @@
       <workItem from="1564574988287" duration="311000" />
       <workItem from="1565022956997" duration="86000" />
       <workItem from="1566231861013" duration="6000" />
+      <workItem from="1566401354498" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="add edges">
       <created>1563472759977</created>
