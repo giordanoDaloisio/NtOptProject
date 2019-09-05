@@ -44,17 +44,6 @@ def draw_initial_graph():
         DrawG.draw('graph.svg')
 
 
-def create_stations(n, lb, ub):
-    stations = []
-    for station in range(1, n):
-        stations.append(
-            {"station": station,
-             "load": random.randint(lb, ub)
-             }
-        )
-    return stations
-
-
 def create_nodes(stations):
     nodes = []
     for elem in stations:
